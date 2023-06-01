@@ -30,6 +30,7 @@ html, body {
 h1 {
     /* 14px * 5 = 70px */
     font-size: 5em;
+    letter-spacing: -8px;
     /* 브라우저의 너비에서 7.5%가 보일 것이다 / 1.6배 */
     font: bold 7.5vw/1.6 'Signika', sans-serif;
     /* user-select: none 드래그가 되지않게 해주겠다. */
@@ -66,28 +67,32 @@ body:hover span {
 }
 span:nth-child(4n) {
     color: hsl(50, 75%, 55%);
-    text-shadow: 1px 1px hsl(50, 75%, 45%),
+    text-shadow:
+    1px 1px hsl(50, 75%, 45%),
     2px 2px hsl(50, 45%, 45%),
     3px 3px hsl(50, 45%, 45%),
     4px 4px hsl(50, 75%, 45%);
 }
 span:nth-child(4n-1) {
     color: hsl(135, 35%, 55%);
-    text-shadow: 1px 1px hsl(135, 35%, 45%),
+    text-shadow:
+    1px 1px hsl(135, 35%, 45%),
     2px 2px hsl(135, 35%, 45%),
     3px 3px hsl(135, 35%, 45%),
     4px 4px hsl(135, 35%, 45%);
 }
 span:nth-child(4n-2) {
     color: hsl(155, 35%, 60%);
-    text-shadow: 1px 1px hsl(155, 25%, 50%),
+    text-shadow:
+    1px 1px hsl(155, 25%, 50%),
     2px 2px hsl(155, 25%, 50%),
     3px 3px hsl(155, 25%, 50%),
     4px 4px hsl(140, 25%, 50%);
 }
 span:nth-child(4n-3) {
     color: hsl(30, 65%, 60%);
-    text-shadow: 1px 1px hsl(30, 45%, 50%),
+    text-shadow:
+    1px 1px hsl(30, 45%, 50%),
     2px 2px hsl(30, 45%, 50%),
     3px 3px hsl(30, 45%, 50%),
     4px 4px hsl(30, 45%, 50%);
@@ -147,7 +152,7 @@ header {
 }
 .logo {
     width: 20%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 .logo a {
     font-weight: 800;
